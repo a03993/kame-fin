@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme inline {
+    --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+    --color-profit: var(--color-red-500);
+    --color-loss: var(--color-lime-600);
+    --color-warning: var(--color-amber-500);
+}
+
+button {
+    cursor: pointer;
+}
